@@ -27,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "homepage": "https://github.com/syriahamster/webtest",
+    "scripts": {
+        "deploy": "gh-pages -d web-build",
+        "predeploy": "expo build:web"
     }
   }
 }
